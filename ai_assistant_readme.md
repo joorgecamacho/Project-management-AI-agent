@@ -4,11 +4,11 @@ A Python-based AI agent that manages Microsoft 365 emails and Planner tasks thro
 
 ## Features
 
-- 📧 **Email Management**: Read, filter, and send emails via Outlook
-- ✅ **Task Management**: View and create tasks in Microsoft Planner
-- 🤖 **Local AI**: Uses Ollama for private, offline LLM inference
-- 💬 **CLI Interface**: Simple command-line interaction
-- ☁️ **Cloud Ready**: Designed for Google Cloud Vertex AI Workbench
+- **Email Management**: Read, filter, and send emails via Outlook
+- **Task Management**: View and create tasks in Microsoft Planner
+- **Local AI**: Uses Ollama for private, offline LLM inference
+- **CLI Interface**: Simple command-line interaction
+- **Cloud Ready**: Designed for Google Cloud Vertex AI Workbench
 
 ## Setup
 
@@ -178,12 +178,12 @@ export OLLAMA_NUM_THREADS=4
 
 ## Future Enhancements
 
-- ✅ Local LLM with Ollama (Done!)
-- 🔄 Jira integration (Planned)
-- 📅 Calendar management
-- 🏷️ Email categorization
-- 🎯 Smart task prioritization
-- 🌐 Optional web interface
+- Local LLM with Ollama (Done!)
+- Jira integration (Planned)
+- Calendar management
+- Email categorization
+- Smart task prioritization
+- Optional web interface
 
 ## Troubleshooting
 
@@ -220,11 +220,11 @@ ollama list
 
 ## Why Ollama?
 
-- 🔒 **Privacy**: All inference happens locally
-- 💰 **Cost**: No API fees
-- ⚡ **Speed**: Fast responses with good hardware
-- 🔌 **Offline**: Works without internet (after model download)
-- 🎛️ **Control**: Full control over model selection
+- **Privacy**: All inference happens locally
+- **Cost**: No API fees
+- **Speed**: Fast responses with good hardware
+- **Offline**: Works without internet (after model download)
+- **Control**: Full control over model selection
 
 ## Notes
 
