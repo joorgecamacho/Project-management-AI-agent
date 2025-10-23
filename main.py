@@ -22,14 +22,14 @@ def main():
     required_vars = ['CLIENT_ID', 'CLIENT_SECRET', 'TENANT_ID']
     missing = [var for var in required_vars if not os.getenv(var)]
     
-    if missing:
+    '''if missing:
         print(f"❌ Missing environment variables: {', '.join(missing)}")
         print("\nCreate a .env file with:")
         print("CLIENT_ID=your_microsoft_client_id")
         print("CLIENT_SECRET=your_microsoft_client_secret")
         print("TENANT_ID=your_microsoft_tenant_id")
         return
-    
+    '''
     print(f"🔧 Initializing with Ollama model: {args.model}")
     assistant = PersonalAssistant(ollama_model=args.model, ollama_url=args.ollama_url)
     

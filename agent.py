@@ -12,7 +12,7 @@ class PersonalAssistant:
     def __init__(self, ollama_model="llama3.1", ollama_url="http://localhost:11434"):
         self.ollama_url = ollama_url
         self.ollama_model = ollama_model
-        self.m365 = M365Client()
+        #self.m365 = M365Client()
         self.conversation_history = []
         
         # Test Ollama connection
